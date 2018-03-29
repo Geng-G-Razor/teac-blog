@@ -19,6 +19,7 @@
   // 在开发网站时，可以从ip网址，跳到域名，反向也可以。
   // 使用正则匹配在适用网址激活功能
   // 域名网址为虚构
+  // 使用方法是，网址后面加上 ?ijump 或者 &ijump，重新载入网页。
 
   let jumpFunc = function (myIP) {
     let href = window.location.href
